@@ -1,4 +1,4 @@
-lib.callback.register('R6-Logs:client:GetScreenshot', function(webhook)
+lib.callback.register('Mstrfunn-Logs:client:GetScreenshot', function(webhook)
     if not webhook then return end
 
     local function tryUpload(fieldName)
@@ -55,4 +55,5 @@ end)
 
 lib.callback.register('DiscordLogs:Client:CB:Ping', function()
     return true
+
 end)
