@@ -1,4 +1,4 @@
-# R6 Logs - Complete Documentation
+# Mstrfunn Logs - Complete Documentation
 
 A unified logging system for FiveM servers with Discord webhook integration, screenshot support, and framework detection (QBX, QB-Core, ESX).
 
@@ -313,3 +313,4 @@ exports['R6-Logs']:CreateLog({
 ---
 
 **Remember:** The `category` field is the bridge between your log and the Discord webhook. Always ensure the category name exists in the `Webhooks` table!
+
